@@ -1,8 +1,13 @@
 import React from 'react'
+import Featured from '../../components/Featured/Featured'
+import Trustedby from '../../components/Trustedby/Trustedby'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Featured />
+      <Trustedby />
+    </div>
   )
 }
 

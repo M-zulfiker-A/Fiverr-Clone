@@ -1,0 +1,97 @@
+.featured_container {
+    background-color: #013f1d;
+    display: flex;
+    padding-left: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    height: 80vh;
+    overflow: hidden;
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:1.5rem;
+        padding: 3rem;
+        h1{
+            all:unset;
+            color : white;
+            font-size: 2.8rem;
+            font-weight: 700;
+            i{
+                font-weight: normal;
+            }
+        }
+        .search_container{
+            display: flex;
+            justify-content: space-between;
+            width : 80%;
+            padding-left: 0.5rem;
+            background-color: white;
+            border-radius: 5px;
+            .searchbox{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                gap : 0.5rem;
+
+                img{
+                    height: 1.5rem;
+                    background-color: transparent;
+                }
+                input{
+                    all:unset;
+                    background-color: transparent;
+                    color: black;
+                    outline: none;
+                    width : 100%;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+            }
+            .search_button{
+                all:unset;
+                color : white;
+                padding : 0.5rem;
+                font-weight: 400;
+                background-color: #1dbf73;
+                border: 1px solid #1dbf73;
+                cursor : pointer;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
+        .popular{
+            display: flex;
+            gap:0.5rem;
+            span{
+                font-size: 1rem;
+                padding: 0.2rem;
+                color : white;
+            }
+            button{
+                all : unset;
+                font-size: 0.8rem;
+                padding: 0.2rem ;
+                background-color: transparent;
+                color : white;
+                border: 2px solid white;
+                border-radius: 32px;
+                min-width: 5.5rem;
+                text-align: center;
+                font-weight: bold;
+
+                &:hover{
+                    background-color: white;
+                    color:black;
+                }
+            }
+        }
+        
+    }
+    .right{
+        height: 100%;
+        img{
+            object-fit: contain;
+        }
+    }
+}

@@ -1,18 +1,26 @@
 import React , {useState, useEffect} from 'react'
 import "./Navbar.scss"
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = () => {
   const [showMenu , setshowMenu] = useState(false)
   const [userMenu , setUserMenu] = useState(false)
+  const pathname = useLocation().pathname;
   const menuTrigger =()=>{
     window.scrollY > 0 ? setshowMenu(true) : setshowMenu(false)
   }
+  const closeUserMenu=(e)=>{
+    if(e.target.innerHTML !== currentUser.username){
+      setUserMenu(false)
+    }
+  }
   useEffect(()=>{
     window.addEventListener('scroll', menuTrigger);
+    window.addEventListener('click', (e)=>closeUserMenu(e));
 
     return ()=>{
       window.removeEventListener('scroll',menuTrigger)
+      window.removeEventListener('click', (e)=>closeUserMenu(e));
     }
   },[])
   const currentUser = {
@@ -21,7 +29,7 @@ const Navbar = () => {
     imageUrl : `https://ui-avatars.com/api/?name=`
   }
   return (
-    <div className={showMenu ? 'navbar active' : 'navbar' }>
+    <div className={showMenu || pathname !== "/" ? 'navbar active' : 'navbar' }>
       <div className="container">
         <div className="logo">
           <Link to="/" className="text">
@@ -43,20 +51,25 @@ const Navbar = () => {
           {
             currentUser && userMenu && <div className="usermenu">
               <Link to="/gigs">Gigs</Link>
-              <Link to="addnew">Add a new Gig</Link>
-              <Link to="orders">Orders</Link>
-              <Link to="messages">Messages</Link>
+              <Link to="/addnew">Add a new Gig</Link>
+              <Link to="/orders">Orders</Link>
+              <Link to="/messages">Messages</Link>
               <Link>Logout</Link>
             </div>
           }
         </div>
       </div>
-      { showMenu &&
+      { (showMenu || pathname !== "/") &&
         <>
             <hr />
             <div className="menu">
-              <span>Text1</span>
-              <span>Text2</span>
+              <Link>Music & AUdio</Link>
+              <Link>Graphics & Designing</Link>
+              <Link>Programming & Tech</Link>
+              <Link>Writing & Translation</Link>
+              <Link>Video & Animation</Link>
+              <Link>Photography</Link>
+              <Link>Business</Link>
             </div>
         </>
       }
