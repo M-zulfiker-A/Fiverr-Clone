@@ -7,8 +7,8 @@ const app = express()
 dotenv.config()
 mongoose.set({ strictQuery : true})
 
-app.get("/",(req,res)=>{
-    res.send('<h1>Hello</h1>')
+app.get("/",async(req,res)=>{
+    res.send(`<h1>hi</h1>`)
 })
 
 const connectDB =()=>{
