@@ -1,0 +1,44 @@
+.catcards{
+    height: 50vh;
+    position: relative;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+
+    img{
+        height : 100%;
+        width : 100%;
+        object-fit: cover;
+        z-index : -1;
+        border-radius: 5px;
+    
+    }
+    .cardtitle{
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: #fdf9f9;
+        position: absolute;
+        left: 0.5rem;
+        top: 3rem;
+        z-index: 2;
+    }
+    .cardDesc{
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #fdf9f9;
+        position: absolute;
+        left: 0.5rem;
+        z-index: 2;
+        top: 1rem;
+    }
+    .overlay{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: black;
+        width: 100%;
+        opacity: 0.6;
+        border-radius: 5px;
+        z-index: 0;
+    }
+}

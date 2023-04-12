@@ -1,0 +1,24 @@
+.carousel-initialized{
+    width : 90vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    .carousel-prev{
+        width : 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: lightgray;
+        margin-top: 10rem;
+    }
+
+    .carousel-next{
+        width : 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: lightgray;
+        margin-top: 10rem;
+
+    }
+    
+}
