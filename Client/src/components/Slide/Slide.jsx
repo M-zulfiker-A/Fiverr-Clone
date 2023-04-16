@@ -4,7 +4,7 @@ import "./Slide.scss"
 
 const Slide = ({children,slidesToShow}) => {
   return (
-      <Slider classNam="carouselcontainer" slidesToShow={slidesToShow}>
+      <Slider className="carouselcontainer" slidesToShow={slidesToShow}>
           {children}
       </Slider>
   )

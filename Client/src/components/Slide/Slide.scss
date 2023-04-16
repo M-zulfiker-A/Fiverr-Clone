@@ -3,13 +3,16 @@
     margin: auto;
     display: flex;
     align-items: center;
+    height: 100%;
+    position: relative;
 
     .carousel-prev{
         width : 3rem;
         height: 3rem;
         border-radius: 50%;
         background-color: lightgray;
-        margin-top: 10rem;
+        position: absolute;
+        top:40%;
     }
 
     .carousel-next{
@@ -17,7 +20,8 @@
         height: 3rem;
         border-radius: 50%;
         background-color: lightgray;
-        margin-top: 10rem;
+        position: absolute;
+        top:40%;
 
     }
     

@@ -2,9 +2,10 @@ import React from 'react'
 import Featured from '../../components/Featured/Featured'
 import Trustedby from '../../components/Trustedby/Trustedby'
 import Slide from '../../components/Slide/Slide'
-import { cards } from '../../utils/data'
+import { cards, projects } from '../../utils/data'
 import CatCards from '../../components/catCards/CatCards';
 import "./Home.scss"
+import ProjCards from '../../components/ProjCards/ProjCards'
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       <Slide slidesToShow={5} >
         {
             cards.map((card)=>{
-              return <CatCards id={card.id} item={card} />
+              return <CatCards key={card.id} item={card} />
             })
         }
       </Slide>
@@ -53,6 +54,56 @@ const Home = () => {
             <video controls src='./img/AdVideo.mp4' />
           </div>
       </div>
+      <h1 className='marketplace_heading'>Explore the Marketplace</h1>
+      <div className="marketplace">
+        <div className="market_item">
+          <img src="https://cdn-icons-png.flaticon.com/512/1786/1786971.png" alt="Business" />
+          <p>Business</p>
+        </div>
+        <div className="market_item">
+          <img src="https://cdn-icons-png.flaticon.com/512/2991/2991406.png" alt="Digital" />
+          <p>Digital Marketing</p>
+        </div>
+        <div className="market_item">
+          <img src="   https://cdn-icons-png.flaticon.com/512/3586/3586779.png " alt="Animation" />
+          <p>Video & Animation</p>
+        </div>
+        <div className="market_item">
+          <img src="https://cdn-icons-png.flaticon.com/512/3131/3131430.png" alt="Writing" />
+          <p>Writing & Translation</p>
+        </div>
+        <div className="market_item">
+          <img src="   https://cdn-icons-png.flaticon.com/512/1077/1077701.png " alt="Graphics" />
+          <p>Graphics & Designing</p>
+        </div>
+        <div className="market_item">
+          <img src="   https://cdn-icons-png.flaticon.com/512/1336/1336494.png " alt="Programming" />
+          <p>Programming & Tech</p>
+        </div>
+        <div className="market_item">
+          <img src="   https://cdn-icons-png.flaticon.com/512/6749/6749718.png " alt="Lifestyle" />
+          <p>Lifestyle</p>
+        </div>
+        <div className="market_item">
+          <img src="https://cdn-icons-png.flaticon.com/512/993/993762.png" alt="Data" />
+          <p>Data</p>
+        </div>
+        <div className="market_item">
+          <img src="https://cdn-icons-png.flaticon.com/512/685/685655.png " alt="Photography" />
+          <p>Photography</p>
+        </div>
+        <div className="market_item">
+          <img src="https://cdn-icons-png.flaticon.com/512/8729/8729572.png  " alt="Music" />
+          <p>Music & Audio</p>
+        </div>
+      </div>
+      <Slide slidesToShow={4} >
+        {
+            projects.map((card)=>{
+              return <ProjCards key={card.id} item={card} />
+            })
+        }
+      </Slide>
     </div>
   )
 }

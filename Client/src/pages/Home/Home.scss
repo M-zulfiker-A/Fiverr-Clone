@@ -1,17 +1,17 @@
 .carouselHeading{
     margin-left : 3rem;
     margin-bottom : 1rem;
-    font-family: 'Montserrat', sans-serif;
 
+}
+*{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .features{
-    font-family: 'Montserrat', sans-serif;
     background-color: #f1fdf7;
     display: flex;
     padding: 3rem;
     margin-top : 4rem;
-    width:100%;
     .details{
         
         .points{
@@ -39,6 +39,41 @@
         video{
             width : 70%;
             aspect-ratio: 16/9;
+
+        }
+    }
+}
+.marketplace_heading{
+    margin-left: 3rem;
+}
+.marketplace{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(4rem,11rem));
+    gap : 4rem;
+    .market_item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        img{
+            width:3rem;
+            height: 3rem;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            border: 1px solid gray;
+            width: 40%;
+            top : 55%;
+
+            
+        }
+        &:hover::after{
+            border: 1px solid green;
+            transition: all 0.5s ease ;
+            width: 60%;
         }
     }
 }

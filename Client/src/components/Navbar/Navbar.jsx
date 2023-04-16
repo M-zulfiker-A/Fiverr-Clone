@@ -63,7 +63,7 @@ const Navbar = () => {
         <>
             <hr />
             <div className="menu">
-              <Link>Music & AUdio</Link>
+              <Link>Music & Audio</Link>
               <Link>Graphics & Designing</Link>
               <Link>Programming & Tech</Link>
               <Link>Writing & Translation</Link>
