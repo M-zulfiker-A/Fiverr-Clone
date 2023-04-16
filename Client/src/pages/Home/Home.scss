@@ -4,3 +4,41 @@
     font-family: 'Montserrat', sans-serif;
 
 }
+
+.features{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f1fdf7;
+    display: flex;
+    padding: 3rem;
+    margin-top : 4rem;
+    width:100%;
+    .details{
+        
+        .points{
+            
+            .features__title{
+                display: flex;
+                align-items: center;
+                gap : 1rem;
+                font-weight: 600;
+                img{
+                    width: 1.5rem;
+                    height : 1.5rem;
+                }
+            }
+            .features__desc{
+                margin-bottom: 2rem;;
+            }
+        }
+    }
+    .features_video{
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        video{
+            width : 70%;
+            aspect-ratio: 16/9;
+        }
+    }
+}
