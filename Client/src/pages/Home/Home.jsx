@@ -97,13 +97,17 @@ const Home = () => {
           <p>Music & Audio</p>
         </div>
       </div>
-      <Slide slidesToShow={4} >
-        {
+      <div className="projects_container">
+        <h1 className="projects_heading">Get inspired by projects made by our freelancers</h1>
+        <Slide slidesToShow={4} >
+          {
             projects.map((card)=>{
               return <ProjCards key={card.id} item={card} />
             })
-        }
-      </Slide>
+          }
+        </Slide>
+      </div>
+        
     </div>
   )
 }

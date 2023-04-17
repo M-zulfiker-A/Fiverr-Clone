@@ -48,6 +48,7 @@
 }
 .marketplace{
     padding: 3rem;
+    padding-top: 0.5rem;
     display: grid;
     grid-template-columns: repeat(auto-fill , minmax(4rem,11rem));
     gap : 4rem;
@@ -76,4 +77,10 @@
             width: 60%;
         }
     }
+}
+.projects_container{
+    h1{
+        margin-left: 3rem;
+    }
+    margin-bottom: 3rem;
 }
