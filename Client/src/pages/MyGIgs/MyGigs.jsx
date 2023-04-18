@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 const MyGigs = () => {
   return (
-    <div>MyGigs</div>
+    <div className="mygigs">gigs</div>
   )
 }
 
