@@ -49,17 +49,17 @@ const Footer = () => {
       <div className="sections">
       <h3>Community</h3>
       <ul>
-        <li><Link to="/cp/success-stories?source=footer" target="_blank" rel="" data-uw-rm-brl="false" aria-label="Customer Success Stories - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://www.fiverr.com/cp/success-stories?source=footer$customersuccessstories">Customer Success Stories</Link></li>
-        <li><Link to="https://community.fiverr.com" target="_blank" rel="noopener" data-uw-rm-brl="false" aria-label="Community Hub - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://community.fiverr.com/$communityhub">Community Hub</Link></li>
-        <li><Link to="https://community.fiverr.com/welcome/?utm_source=fiverr&amp;utm_medium=website" target="_blank" rel="noopener" data-uw-rm-brl="false" aria-label="Forum - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://community.fiverr.com/welcome/?utm_source=fiverr&amp;utm_medium=website$forum">Forum</Link></li>
-        <li><Link to="https://events.fiverr.com" target="_blank" rel="noopener" data-uw-rm-brl="false" aria-label="Events - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://events.fiverr.com/$events">Events</Link></li>
-        <li><Link to="https://blog.fiverr.com/?utm_source=fiverr&amp;utm_medium=website" target="_blank" rel="noopener" data-uw-rm-brl="false" aria-label="Blog - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://blog.fiverr.com/?utm_source=fiverr&amp;utm_medium=website$blog">Blog</Link></li>
-        <li><Link to="https://Linkffiliates.fiverr.com/influencers" target="_blank" rel="noopener" data-uw-rm-brl="false" aria-label="Influencers - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://Linkffiliates.fiverr.com/influencers$influencers">Influencers</Link></li>
-        <li><Link to="https://Linkffiliates.fiverr.com" target="_blank" rel="noopener" data-uw-rm-brl="false" aria-label="Affiliates - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://Linkffiliates.fiverr.com/$affiliates">Affiliates</Link></li>
-        <li><Link to="https://podfollow.com/ninetwentynine" target="_blank" rel="noopener nofollow" data-uw-rm-brl="false" aria-label="Podcast - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://podfollow.com/ninetwentynine$podcast">Podcast</Link></li>
-        <li><Link to="/referral_program?source=footer" rel="" data-uw-rm-brl="false">Invite a Friend</Link></li>
-        <li><Link to="/start_selling?source=footer" rel="" data-uw-rm-brl="false">Become a Seller</Link></li>
-        <li><Link to="/community/standards?source=footer" target="_blank" rel="" data-uw-rm-brl="false" aria-label="Community Standards - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://www.fiverr.com/community/standards?source=footer$communitystandards">Community Standards</Link></li>
+        <li><Link to="" target="_blank" rel="" data-uw-rm-brl="false" aria-label="Customer Success Stories - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://www.fiverr.com/cp/success-stories?source=footer$customersuccessstories">Customer Success Stories</Link></li>
+        <li><Link to="" target="_blank" rel="noopener" data-uw-rm-brl="false" aria-label="Community Hub - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://community.fiverr.com/$communityhub">Community Hub</Link></li>
+        <li><Link to="">Forum</Link></li>
+        <li><Link to="" target="_blank" rel="noopener" data-uw-rm-brl="false" aria-label="Events - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://events.fiverr.com/$events">Events</Link></li>
+        <li><Link to="" target="_blank" rel="noopener" data-uw-rm-brl="false" aria-label="Blog - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://blog.fiverr.com/?utm_source=fiverr&amp;utm_medium=website$blog">Blog</Link></li>
+        <li><Link to="" target="_blank" rel="noopener" data-uw-rm-brl="false" aria-label="Influencers - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://Linkffiliates.fiverr.com/influencers$influencers">Influencers</Link></li>
+        <li><Link to="" target="_blank" rel="noopener" data-uw-rm-brl="false" aria-label="Affiliates - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://Linkffiliates.fiverr.com/$affiliates">Affiliates</Link></li>
+        <li><Link to="" target="_blank" rel="noopener nofollow" data-uw-rm-brl="false" aria-label="Podcast - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://podfollow.com/ninetwentynine$podcast">Podcast</Link></li>
+        <li><Link to="" rel="" data-uw-rm-brl="false">Invite a Friend</Link></li>
+        <li><Link to="" rel="" data-uw-rm-brl="false">Become a Seller</Link></li>
+        <li><Link to="" target="_blank" rel="" data-uw-rm-brl="false" aria-label="Community Standards - opens in new tab" data-uw-rm-ext-link="" uw-rm-external-link-id="https://www.fiverr.com/community/standards?source=footer$communitystandards">Community Standards</Link></li>
         </ul>
       </div>
       
