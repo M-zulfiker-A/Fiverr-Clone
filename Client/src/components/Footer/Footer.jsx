@@ -81,10 +81,10 @@ const Footer = () => {
        <b>fiverr.</b> © Fiverr International Ltd. 2023
       </div>
       <div className="social">
-        <img src="./img/twitter.png" alt="twitter" />
-        <img src="./img/facebook.png" alt="facebook" />
-        <img src="./img/pinterest.png" alt="pinterest" />
-        <img src="./img/instagram.png" alt="instagram" />
+        <img src="/img/twitter.png" alt="twitter" />
+        <img src="/img/facebook.png" alt="facebook" />
+        <img src="/img/pinterest.png" alt="pinterest" />
+        <img src="/img/instagram.png" alt="instagram" />
       </div>
     </div>
   </>
