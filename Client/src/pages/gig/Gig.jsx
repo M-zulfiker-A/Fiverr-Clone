@@ -86,17 +86,19 @@ const Gig = () => {
             <p>$5.99</p>
           </div>
           <div className="card-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam unde, dicta sit nostrum laboriosam deserunt similique aliquid accusamus? Ad maiores voluptate aspernatur repellendus voluptatibus soluta atque totam accusantium dolor.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, inventore. Provident voluptates ex aspernatur velit dolore illum quaerat culpa ratione consectetur 
           </div>
           <div className="delivery">
-            <img src="/img/clock.png" alt="" />
-            2 Days delivery
+            <div>
+              <img src="/img/clock.png" alt="" />
+              2 Days delivery
+            </div>
+            <div>
+              <img src="/img/recycle.png" alt="" />
+              5 revisions
+            </div>
           </div>
-          <div className="revisions">
-            <img src="/img/recycle.png" alt="" />
-            5 revisions
-          </div>
-          <div className="features">
+          <div className="cardfeatures">
             <ul>
               <li><img src="/img/greencheck.png" alt="" />2 concepts included </li>
               <li><img src="/img/greencheck.png" alt="" />Logo transparency</li>

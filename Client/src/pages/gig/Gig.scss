@@ -2,6 +2,7 @@
     .container{
         padding:2rem;
         display: flex;
+        position: relative;
         .left{
             .breadcrumbs{
                 color :gray;
@@ -57,13 +58,57 @@
             }
         }
         .right  {
-            flex-grow: 1;
+            border: 2px solid lightgray;
+            height: fit-content;
+            padding: 1rem;
+            position: sticky;
+            top:9rem;
             img{
-                height: 1.5rem;
-                width: 1.5rem;
+                height: 1rem;
+                width: 1rem;
             }
             ul{
                 list-style-type: none;
+            }
+            .cardtitle{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-weight: 700;
+            }
+            .card-description{
+                margin-bottom: 2rem;
+            }
+            .delivery{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-weight: bold;
+                div{
+                    display: flex;
+                    align-items: center;
+                    gap: 0.3rem;
+                }
+            }
+            .cardfeatures{
+                ul{
+                    li{
+                        display: flex;
+                        gap:0.3rem
+                    }
+                }
+            }
+            button{
+                all:unset;
+                background-color: #1dbf73;
+                color : white;
+                border : 1px solid #1dbf73;
+                height: 1.5rem;
+                border-radius: 5px;
+                cursor: pointer;
+                width:100%;
+                text-align: center;
+                margin-right: 2rem;
             }
         }
     }
