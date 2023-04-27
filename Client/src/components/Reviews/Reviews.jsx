@@ -4,7 +4,7 @@ const Reviews = ({user , messaage}) => {
   return (
     <div className='review-container'>
         <div className="user">
-            <img src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
+            <img className= "profilepic" src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
             <div className="seller-details">
                 <p>John Doe</p>
                 <div className="country">

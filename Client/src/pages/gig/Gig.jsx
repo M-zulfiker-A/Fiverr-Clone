@@ -11,7 +11,7 @@ const Gig = () => {
           <div className="breadcrumbs">Fiverr {">"} Graphics Design</div>
           <h1>I will create Graphics design for you</h1>
           <div className="user">
-            <img src="" alt="" />
+            <img className= "profilepic" src="https://fiverr-res.cloudinary.com/t_profile_thumb,q_auto,f_auto/attachments/profile/photo/0d59217302fc3141e9bad4282d217528-1673307842712/e2124d86-d076-4849-8607-0ee9a597c73b.jpg" alt="" />
             <span>John Doe</span>
             <div className="star">
               <img src="/img/star.png" alt="" />
@@ -20,11 +20,11 @@ const Gig = () => {
               <img src="/img/star.png" alt="" />
               <span>4.9</span>
             </div>
+          </div>
             <div className="slider_container">
               <Slide slidesToShow={1}>
-                <img src="https://images.pexels.com/photos/5708069/pexels-photo-5708069.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
-                <img src="https://images.pexels.com/photos/5708069/pexels-photo-5708069.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
                 <img src="https://images.pexels.com/photos/8797307/pexels-photo-8797307.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
+                <img src="https://images.pexels.com/photos/5708069/pexels-photo-5708069.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
                 <img src="https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
               </Slide>
             </div>
@@ -33,7 +33,7 @@ const Gig = () => {
               <div className="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid atque sequi, neque eveniet sapiente asperiores dignissimos hic consequuntur cum cumque laboriosam, harum nobis? Sequi voluptates aperiam error unde, minima dolorum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima magni, non iure quae a delectus porro odit doloribus eveniet laboriosam officia dolore quasi maxime hic ab et consequatur rem voluptate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, tempore architecto incidunt minus maiores voluptatum nostrum eos. Esse eos quasi quas odit, libero ducimus eaque? Accusantium optio minima odio. Quod.</div>
             </div>
             <div className="about-seller">
-              <img src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
+              <img className= "profilepic" src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
               <div className="seller-details">
                 <div className="name">John Doe</div>
                 <div className="shortdesc">I design AI art for you</div>
@@ -79,7 +79,6 @@ const Gig = () => {
                 <Reviews />
               </div>
             </div>
-          </div>
         </div>
         <div className="right">
           <div className="cardtitle">
